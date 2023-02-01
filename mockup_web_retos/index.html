@@ -12,7 +12,7 @@
   <nav>
     <ul>
         <li>Categorías</li>
-        <li>Retos</li>
+        <li id="reto">Retos</li>
         <li>Alumnos</li>
         <li>Equipos</li>
     </ul>
@@ -30,19 +30,19 @@
             </ol>
         </div>
         <div id="formulario">
-            <label>Nombre <input type="text" placeholder="Carrera se sacos"></label><br><br>
-            <label>Dirigido a <input type="text" placeholder="2DAW" id="short"></label><br><br>
-            <label>Descripcion<br><br> <input type="textarea" placeholder="Puede no rellenarse" id="descripcion"></label></label><br><br>
-            <label>Fecha incio inscripcion <input type="date"></label> <label>Fecha fin inscripcion <input type="date" placeholder="Puede no rellenarse"></label><br><br>
-            <label>Fecha de inicio del reto <input type="date"></label> <label>Fecha de fin del reto <input type="date"></label><br><br>
-            <label>Profesor</label>
-            <select name="select">
+            <label>Nombre: <input type="text" placeholder="Carrera se sacos" class="margen"></label><br><br>
+            <label>Dirigido a: <input type="text" placeholder="2DAW" id="short" class="margen"></label><br><br>
+            <label>Descripcion: <br><br> <input type="textarea" placeholder="Puede no rellenarse" id="descripcion"></label></label><br><br>
+            <label>Fecha incio inscripcion: <input type="date" class="margen"></label> <label class="derecha">Fecha fin inscripcion <input type="date" placeholder="Puede no rellenarse" class="margen"></label><br><br>
+            <label>Fecha de inicio del reto: <input type="date" class="margen"></label> <label class="derecha">Fecha de fin del reto <input type="date" class="margen"></label><br><br>
+            <label>Profesor: </label>
+            <select name="select" class="margen">
                 <option value="value1">Paco</option>
                 <option value="value2" selected>Antonio</option>
                 <option value="value3">Carlos</option>
             </select>
-            <label>Categoria</label>
-            <select name="select">
+            <label class="derecha">Categoria: </label>
+            <select name="select" class="margen">
                 <option value="value1">Juegos de mesa</option>
                 <option value="value2" selected>Juegos en equipo</option>
             </select><br><br>
